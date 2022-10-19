@@ -19,9 +19,9 @@ import * as IosAssetTemplates from './assets';
 import sharp from 'sharp';
 
 export const IOS_APP_ICON_SET_NAME = 'AppIcon';
-export const IOS_APP_ICON_SET_PATH = `App/Assets.xcassets/${IOS_APP_ICON_SET_NAME}.appiconset`;
+export const IOS_APP_ICON_SET_PATH = `Images.xcassets/${IOS_APP_ICON_SET_NAME}.appiconset`;
 export const IOS_SPLASH_IMAGE_SET_NAME = 'Splash';
-export const IOS_SPLASH_IMAGE_SET_PATH = `App/Assets.xcassets/${IOS_SPLASH_IMAGE_SET_NAME}.imageset`;
+export const IOS_SPLASH_IMAGE_SET_PATH = `Images.xcassets/${IOS_SPLASH_IMAGE_SET_NAME}.imageset`;
 
 export class IosAssetGenerator extends AssetGenerator {
   constructor(options: AssetGeneratorOptions = {}) {
