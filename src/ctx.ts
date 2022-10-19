@@ -53,7 +53,7 @@ async function loadProject(args: any, projectRootPath?: string, projectAssetPath
 function loadMobileProjectConfig(args: any): MobileProjectConfig {
   return {
     ios: {
-      path: args.iosProject ?? 'ios/App',
+      path: args.iosProject ?? 'ios',
     },
     android: {
       path: args.androidProject ?? 'android',
