@@ -49,7 +49,7 @@ export async function run(ctx: Context): Promise<OutputAsset[]> {
 
     if (platforms.length > 0) {
       if (!ctx.args.silent) {
-        log(`Generating assets for ${platforms.map((p) => c.strong(c.success(p))).join(', ')}`);
+        log(`[/] Generating assets for ${platforms.map((p) => c.strong(c.success(p))).join(', ')}`);
       }
 
       const generators = getGenerators(ctx, platforms);
