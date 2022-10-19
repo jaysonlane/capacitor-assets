@@ -39,7 +39,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/capacitor-assets.git"
+    "url": "git+https://github.com/jaysonlane/capacitor-assets.git"
   },
   "bugs": {
     "url": "https://github.com/ionic-team/capacitor-assets/issues"
